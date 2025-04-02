@@ -2,23 +2,22 @@
   "name": "nodecrud",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/shero2308/NodeCrud#readme",
+  "bugs": {
+    "url": "https://github.com/shero2308/NodeCrud/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shero2308/NodeCrud.git"
+  },
   "license": "ISC",
   "author": "sheroyaksha",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node --env-file=.env index.js",
-    "dev": "node --watch --trace-warnings --env-file=.env index.js"
-  },
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "helmet": "^8.1.0",
-    "joi": "^17.13.3",
-    "jsonwebtoken": "^9.0.2",
-    "mongoose": "^8.13.1",
-    "nodemailer": "^6.10.0"
+    "run": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": " node --run -- --watch"
   }
 }
